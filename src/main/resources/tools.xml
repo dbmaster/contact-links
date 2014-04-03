@@ -1,0 +1,12 @@
+<tools>
+        <tool id="dbmaster-contact-links" title="DBMaster::Contact Links" projectTypes="inventory">
+
+            <description>Contact Link</description>
+
+            <parameters>
+              <parameter name="p_contact_name"   title="Contact Name"   type="string" required="false" />
+            </parameters>
+
+            <output  script="contact-links.groovy" type="html" />
+        </tool>
+</tools>
