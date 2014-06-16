@@ -1,7 +1,3 @@
-/*
- *  File Version:  $Id: contact-links.groovy 145 2013-05-22 18:10:44Z schristin $
- */
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
