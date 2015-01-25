@@ -34,12 +34,12 @@ contactLinks.each { link ->
     String objectName, objectType, objectLink, contactLink
 
     if (link.getApplication()!=null) {
-    objectName = link.getApplication().getApplicationName();
-    objectType = "Application"
+        objectName = link.getApplication().getApplicationName();
+        objectType = "Application"
         objectLink = "#inventory/project:${toURL(projectName)}/applications/application:${toURL(objectName)}/contacts"
     } else if (link.getServer()!=null) {
-    objectName = link.getServer().getServerName();
-    objectType = "Server"
+        objectName = link.getServer().getServerName();
+        objectType = "Server"
         objectLink = "#inventory/project:${toURL(projectName)}/servers/server:${toURL(objectName)}/contacts"
     }
 
@@ -51,6 +51,5 @@ contactLinks.each { link ->
                   <td>${objectType}</td>
                   <td><a href='${objectLink}'>${objectName}</a></td>
                </tr> """;
-
 }
 println "</table>"
