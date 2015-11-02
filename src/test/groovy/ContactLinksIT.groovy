@@ -1,9 +1,9 @@
-import io.dbmaster.testng.BaseToolTestNGCase;
+import io.dbmaster.testng.BaseToolTestNGCase
 
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.assertTrue
 import org.testng.annotations.Test
 
-import com.branegy.tools.api.ExportType;
+import com.branegy.tools.api.ExportType
 
 
 public class ContactLinksIT extends BaseToolTestNGCase {
